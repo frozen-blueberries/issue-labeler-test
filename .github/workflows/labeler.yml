@@ -14,3 +14,4 @@ jobs:
     - uses: github/issue-labeler@v3.1
       with:
         configuration-path: .github/labeler.yml
+        repo-token: ${{ github.token }}
